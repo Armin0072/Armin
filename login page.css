@@ -1,0 +1,61 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background: url("picture/picture3.jpg") no-repeat;
+  background-size: auto;
+}
+form{
+  border: 1px solid rgb(150, 140, 140);
+  width: 30%;
+  height:500px;
+  position: relative;
+  top: 50px;
+  left: 35%;
+  border-radius:10px ;
+  background-color: rgb(137, 195, 206);
+}
+header{
+  border-bottom: 1px solid rgb(49, 42, 73);
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+input.first{
+  margin-left: 36px;
+  width: 63%;
+}
+input.second{
+  margin-left: 10px;
+  width: 62.7%;
+}
+span{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-size: larger;
+}
+.submit{
+  background-color: blue;
+  color: white;
+  width: 80px;
+  height: 40px;
+  margin-left: 40%;
+  margin-top: 210px;
+  border-radius: 10px;
+}
+div.tik{
+  width: 80%;
+  height: 20px;
+  border: 1px solid rgb(165, 12, 37);
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+}
+a.pa{
+  text-decoration: none;
+  position: relative;
+  bottom: -50px;
+  left: 20px;
+  font-size: large;
+}
