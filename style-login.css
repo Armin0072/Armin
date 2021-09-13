@@ -1,0 +1,92 @@
+body{
+    background: rgb(34,193,195);
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(45,98,253,1) 100%);
+}
+.flex-container{
+    display: flex;
+    box-sizing: border-box;
+}
+.div1{
+    border: 1px solid black;
+    width: 28%;
+    height: 467px;
+    border-radius: 10px;
+    margin: 10% 40%;
+    background-color: white;
+}
+.div1-2 {
+    width: 40%;
+    padding-bottom: 5px;
+    border-bottom: 3px solid rgb(110, 110, 110);
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-left: 2%;
+    margin-left: 31%;
+    align-items: center;
+}
+.input-1{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 15% 25%;
+    width: 70%;
+}
+.input-1:hover{
+    border-bottom: 3px solid yellowgreen;
+}
+.input-2 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 1% 25%;
+    width: 70%;
+}
+.input-2:hover{
+    border-bottom: 3px solid yellowgreen;
+}
+.input-3 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 15% 25%;
+    width: 70%;
+}
+.input-3:hover{
+    border-bottom: 3px solid yellowgreen;
+}
+.input-4 {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 2% 25%;
+    width: 70%;
+}
+.input-4:hover{
+    border-bottom: 3px solid yellowgreen;
+}
+.div1-3 {
+    width: 70%;
+    border: 1px solid rgb(20, 83, 199);
+    height: 26px;
+    margin: 8% 25%;
+}
+.input-5{
+    margin: 4%;
+    cursor: pointer;
+}
+.button {
+    color: white;
+    background-color: black;
+    margin: 4% 34%;
+    width: 30%;
+}
+.button:hover {
+    color: white;
+    background-color: red;
+    margin: 4% 34%;
+    width: 30%;
+}
+/* @media screen and (max-width=949px) {
+    
+} */
