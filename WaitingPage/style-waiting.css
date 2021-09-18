@@ -1,0 +1,18 @@
+.div1 {
+    width: 10%;
+    height: 156px;
+    margin: 15% 44%;
+    padding: 1% 1%;
+    border: 1px solid black;
+    background-color: rgb(178, 216, 73);
+    transition: width 3s , height 3s , transform 3s;
+}
+.div2 {
+    padding: 36% 15%;
+    margin: 3% 1%;
+    color: #f8f8f8;
+    font-size: xx-large;
+}
+.div1:hover{
+    transform: rotate(360deg);
+}
